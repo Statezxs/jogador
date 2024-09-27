@@ -1,0 +1,120 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+video {
+    width: 100%;
+}
+
+
+.ney {
+    background: linear-gradient(90deg, yellow, green);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    text-align: center;
+    width: 210px;
+    top: 180px;
+    left: 660px;
+    position: absolute;
+}
+
+
+.links img {
+    width: 30px;
+}
+
+.ney2 {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+    top: 185px;
+    left: 665px;
+    position: absolute;
+}
+
+
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+    opacity: 100%;
+    padding: 10px 150px;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.links img {
+    margin-left: -140px;
+    margin-right: 130px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.links a:hover {
+    background-color: white;
+    color: black;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+
+.a2 {
+    background-image: url(imagem-de-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+table img {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table {
+    margin: 0 auto;
+    padding-top: 300px;
+    width: 800px;
+    height: 700px;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
+tr:nth-last-of-type(odd) {
+    background-color: white;
+    opacity: 75%;
+    color: black;
+}
+
+tr {
+    text-align: center;
+}
+
+.name h1 {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 680px;
+}
